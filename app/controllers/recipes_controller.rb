@@ -17,7 +17,7 @@ class RecipesController < ApplicationController
     
         respond_to do |format|
             if @recipe.save
-                flash[:notice] = 'Recipe was successfully created.'
+                flash[:success] = 'Recipe was successfully created.'
                 format.html { redirect_to(@recipe) }
                 format.xml  { render :xml => @recipe, :status => :created, :location => @recipe }
             else
@@ -44,7 +44,7 @@ class RecipesController < ApplicationController
     
         respond_to do |format|
             if @recipe.update_attributes(recipe_params)
-                flash[:notice] = 'Recipe was successfully updated.'
+                flash[:success] = 'Recipe was successfully updated.'
                 format.html { redirect_to(@recipe) }
                 format.xml  { head :ok }
             else

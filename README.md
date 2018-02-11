@@ -47,3 +47,13 @@ Object Relatinal Mapper - ORM
 - size restrictions on email and chefname
 - email address should be valid format
 - email should be unique, case insensitive
+ 
+#Chefs!
+
+Let's discuss what do we need going forward
+
+- Ability to sign-up chefs, so chefs can sign-up to use our application
+- We'll need to show their profile page
+- A way to log in and log out, so chef's can track items they do when using the app, like creating recipes
+- Restrictions for the app's features, for example only logged in chefs can create recipes
+- As with any application, an admin feature so chefs can monitor the app, the admin will have more rights than other users...

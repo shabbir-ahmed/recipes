@@ -30,6 +30,8 @@ gem 'jquery-rails'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
+gem "figaro"
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -53,6 +55,7 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'guard-minitest'
 end
+#gem 'neo4j'
 
 group :production do
   gem 'pg', '~> 0.11'

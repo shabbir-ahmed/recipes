@@ -2,9 +2,16 @@ $navbar-default-bg: #54B800;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
-@import "some_css";
 
+.center {
+    text-align: center;
+}
 
+.jumbotron{
+    background-image: asset-url('back.jpg');
+    background-size: cover;
+    height: 300px;
+}
 
 #logo {
     float: left;
